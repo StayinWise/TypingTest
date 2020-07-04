@@ -3,8 +3,8 @@ namespace TypingTest
 {
     class Words
     {
-        // Randomly generate words which I got from a web crawler I made
-        // Although the acutal program only shows a max of 175 words, there are 300 words here to help prevent same words appearing too often
+        // Randomly generated words 
+        // 300 words to help prevent repeating
         public static string[] WordBank = {"Blowgun", "Bundles", "Social", "Athlete", "Acquitted", "Dress", "Olympics", "Suck", "Issues", "Passage", "Cowboy", "Mediatrix",
                                            "Announce", "Mail", "Magazine", "Steamroller", "Evaporate", "Yeti", "Tractor", "Burger", "Anger", "Irrational", "Funeral", "Pyramid",
                                            "Angles", "Teacher", "Force", "Drawings", "Hippo", "Chills", "Birdseed", "Hat", "Pencil", "Photograph", "Obstacle", "Width", "Female",
