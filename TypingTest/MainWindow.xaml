@@ -1,0 +1,46 @@
+﻿<Window x:Class="TypingTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TypingTest"
+        mc:Ignorable="d"
+        Title="TypingTest" Height="701.35" Width="1403.2" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid Initialized="Grid_Initialized">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="DimGray" Offset="0.01"/>
+                <GradientStop Color="Black" Offset=".80"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <TextBox x:Name="UserInput" HorizontalAlignment="Center" Height="35" Margin="167,0,164.8,92" Text="" VerticalAlignment="Bottom" Width="1065" Initialized="UserInput_Initialized" TextChanged="UserInput_TextChanged" FontSize="25" Grid.RowSpan="2" Visibility="Hidden" IsEnabled="False" CommandManager.PreviewExecuted="UserInput_PreviewExecuted" FontFamily="Candara Light" Background="AliceBlue" Foreground="Black"/>
+        <TextBlock x:Name="Countdown" Text="60" HorizontalAlignment="Center" Margin="650,0,651.8,145" VerticalAlignment="Bottom" Height="70" Width="95" Initialized='Countdown_Initialized' TextAlignment="Center" FontSize="50" Grid.RowSpan="2" Visibility="Hidden" FontFamily="Candara Light" Foreground="AliceBlue"/>
+        <TextBlock x:Name="WordDisplay" HorizontalAlignment="Center" Margin="60,30,61.8,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="450" Width="1275" Initialized="WordDisplay_Initialized" FontSize="24.5" TextAlignment="Center" Grid.RowSpan="2" Visibility="Visible" FontFamily="Candara Light" Foreground="AliceBlue" Background="Transparent"/>
+
+        <Rectangle x:Name="ResultsBackground" HorizontalAlignment="Center" Height="515" Margin="265,44,266.8,113" Grid.RowSpan="2" Stroke="Transparent" VerticalAlignment="Center" Width="865" Initialized="ResultsBackground_Initialized" Visibility="Hidden">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="DimGray" Offset="0.40"/>
+                    <GradientStop Color="White" Offset="2"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock x:Name="Results" HorizontalAlignment="Center" Margin="436,113,436.8,267" Grid.RowSpan="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="292" Width="524" TextAlignment="Center" FontSize="30" Initialized="Results_Initialized" Visibility="Hidden" FontFamily="Candara Light" Foreground="AliceBlue"/>
+        <Button x:Name="MenuButton" Content="Menu" HorizontalAlignment="Center" Margin="625,453,624.8,145" Grid.RowSpan="2" VerticalAlignment="Center" Width="147" Height="74" FontSize="30" Initialized="MenuButton_Initialized" Click="MenuButton_Click" Visibility="Hidden" IsEnabled="False" FontFamily="Candara Light" Background="AliceBlue" Foreground="DimGray"/>
+
+        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Center" Margin="625,0,624.8,113" Grid.RowSpan="2" VerticalAlignment="Bottom" Width="147" Height="74" FontSize="30" Initialized="StartButton_Initialized" Click="StartButton_Click" Background="AliceBlue" FontFamily="Candara Light" Foreground="DimGray"/>
+        <TextBlock x:Name="Title" HorizontalAlignment="Center" Margin="167,145,164.8,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="How fast can you type?" VerticalAlignment="Top" Height="150" Width="1065" TextAlignment="Center" FontSize="75" Initialized="Title_Initialized" FontFamily="Candara Light" Foreground="AliceBlue"/>
+
+        <Label x:Name="Copyright" Content="©️ Wise" HorizontalAlignment="Left" Grid.RowSpan="2" VerticalAlignment="Bottom" Width="65" FontFamily="Candara Light" Foreground="AliceBlue" FontSize="20" Height="32"/>
+
+    </Grid>
+</Window>

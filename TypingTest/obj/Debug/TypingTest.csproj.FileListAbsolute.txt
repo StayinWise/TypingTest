@@ -1,0 +1,15 @@
+C:\Users\mehdi\source\repos\TypingTest\TypingTest\bin\Debug\TypingTest.exe.config
+C:\Users\mehdi\source\repos\TypingTest\TypingTest\bin\Debug\TypingTest.exe
+C:\Users\mehdi\source\repos\TypingTest\TypingTest\bin\Debug\TypingTest.pdb
+C:\Users\mehdi\source\repos\TypingTest\TypingTest\obj\Debug\TypingTest.csprojAssemblyReference.cache
+C:\Users\mehdi\source\repos\TypingTest\TypingTest\obj\Debug\MainWindow.g.cs
+C:\Users\mehdi\source\repos\TypingTest\TypingTest\obj\Debug\App.g.cs
+C:\Users\mehdi\source\repos\TypingTest\TypingTest\obj\Debug\TypingTest_MarkupCompile.cache
+C:\Users\mehdi\source\repos\TypingTest\TypingTest\obj\Debug\TypingTest_MarkupCompile.lref
+C:\Users\mehdi\source\repos\TypingTest\TypingTest\obj\Debug\MainWindow.baml
+C:\Users\mehdi\source\repos\TypingTest\TypingTest\obj\Debug\TypingTest.g.resources
+C:\Users\mehdi\source\repos\TypingTest\TypingTest\obj\Debug\TypingTest.Properties.Resources.resources
+C:\Users\mehdi\source\repos\TypingTest\TypingTest\obj\Debug\TypingTest.csproj.GenerateResource.cache
+C:\Users\mehdi\source\repos\TypingTest\TypingTest\obj\Debug\TypingTest.csproj.CoreCompileInputs.cache
+C:\Users\mehdi\source\repos\TypingTest\TypingTest\obj\Debug\TypingTest.exe
+C:\Users\mehdi\source\repos\TypingTest\TypingTest\obj\Debug\TypingTest.pdb
